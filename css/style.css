@@ -133,3 +133,37 @@ header{
 .signup{
   padding-top: 30px;
 }
+
+/* footer */
+
+footer{
+  background: #151719;
+  color: white;
+}
+
+.contatti{
+  height: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.yourplace{
+  flex-basis: 20%;
+}
+
+.prodotto, .compagnia, .risorse, .norme{
+  flex-basis: 10%;
+}
+
+.logo-final{
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-final p{
+  height: 50px;
+}
