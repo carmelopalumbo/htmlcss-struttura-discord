@@ -114,7 +114,7 @@ header{
 /* section5 */
 
 .sec5{
-  height: 1090px;
+  height: 700px;
   background-color: lightgray;
 }
 
@@ -128,4 +128,8 @@ header{
 .img-sec-5{
   height: 400px;
   text-align: center;
+}
+
+.signup{
+  padding-top: 30px;
 }
