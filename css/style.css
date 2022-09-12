@@ -1,0 +1,53 @@
+/* css */
+
+/* height da rimuovere!! */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, .35);
+  border: 1px solid black;
+}
+
+.container{
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+
+header{
+  padding-top: 10px;
+  background-color: #404EED;
+  height: 60px;
+}
+
+.logo{
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  height: 30px;
+}
+
+.boxmenu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu{
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
+
+.btn{
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
