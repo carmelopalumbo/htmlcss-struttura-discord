@@ -54,6 +54,8 @@ header{
 
 /* main */
 
+/* section1 */
+
 .boxsec1{
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +63,8 @@ header{
   justify-content: center;
   align-items: center;
 }
+
+/* section2 */
 
 .sec2{
   height: 675px;
@@ -80,6 +84,8 @@ header{
   flex-basis: 30%;
   text-align: center;
 }
+
+/* section3 */
 
 .sec3{
   background-color: lightgray;
