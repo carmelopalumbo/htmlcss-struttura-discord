@@ -54,7 +54,7 @@ header{
 
 /* main */
 
-main .boxsec1{
+.boxsec1{
   display: flex;
   flex-wrap: wrap;
   height: 580px;
@@ -71,11 +71,32 @@ main .boxsec1{
   padding-top: 50px;
 }
 
-.img-sec-1{
+.img-sec-2{
   height: 375px;
   flex-basis: 70%;
 }
 
 .descr-sec-2{
   flex-basis: 30%;
+  text-align: center;
+}
+
+.sec3{
+  background-color: lightgray;
+  height: 675px;
+
+}
+
+.box-sec-3{
+  display: flex;
+  padding-top: 50px;
+}
+
+.img-sec-3{
+  flex-basis: 30%;
+}
+
+.descr-sec-3{
+  flex-basis: 70%;
+  text-align: center;
 }
