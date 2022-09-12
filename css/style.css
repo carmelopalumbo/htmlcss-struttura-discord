@@ -56,8 +56,26 @@ header{
 
 main .boxsec1{
   display: flex;
-  height: 580px;
   flex-wrap: wrap;
+  height: 580px;
   justify-content: center;
   align-items: center;
+}
+
+.sec2{
+  height: 675px;
+}
+
+.boxsec2{
+  display: flex;
+  padding-top: 50px;
+}
+
+.img-sec-1{
+  height: 375px;
+  flex-basis: 70%;
+}
+
+.descr-sec-2{
+  flex-basis: 30%;
 }
