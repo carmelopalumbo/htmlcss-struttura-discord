@@ -62,6 +62,7 @@ header{
   height: 580px;
   justify-content: center;
   align-items: center;
+  background-color: beige;
 }
 
 /* section2 */
@@ -85,6 +86,7 @@ header{
 .descr-sec-2{
   flex-basis: 30%;
   text-align: center;
+  background-color: beige;
 }
 
 /* section3 */
@@ -109,6 +111,7 @@ header{
 .descr-sec-3{
   flex-basis: 70%;
   text-align: center;
+  background-color: beige;
 }
 
 /* section5 */
@@ -125,6 +128,10 @@ header{
   text-align: center;
 }
 
+.descr-sec-5{
+  background-color: beige;
+}
+
 .img-sec-5{
   height: 400px;
   text-align: center;
@@ -138,7 +145,10 @@ header{
 
 footer{
   background: #151719;
-  color: white;
+}
+
+footer .contatti ul{
+  background-color: beige;
 }
 
 .contatti{
@@ -151,6 +161,7 @@ footer{
 
 .yourplace{
   flex-basis: 20%;
+  background-color: beige;
 }
 
 .prodotto, .compagnia, .risorse, .norme{
